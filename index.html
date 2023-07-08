@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./js/main.js" defer></script>
+
+
+
+
+    <title>Responsive Portfolio Website</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Jatin</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close nav__link"></i>
+            </div>
+
+            <div class="nav__btns">
+
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+
+
+
+            </div>
+        </nav>
+
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/rane-jatin-852b331a9/" target="_blank"
+                            class="home__social-icon">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="" target="_blank" class="home__social-icon">
+                            <i class="uil uil-envelope"></i>
+                        </a>
+                        <a href="https://github.com/Shiba-Tatsuya" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__im">
+                        <img src="./assets/img/perfil1.png" alt="img">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Hi, I'am Jatin
+                        </h1>
+                        <h3 class="home__subtitle">Frontend Developer</h3>
+                        <p class="home__description">Welcome to my portfolio! I'm a passionate and dedicated front-end
+                            developer with a solid foundation in HTML, CSS, and JavaScript. I love turning ideas into
+                            reality through clean and intuitive user interfaces.</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
+
+                    </div>
+
+
+                </div>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+
+            <div class="about__container container grid">
+                <img src="./assets/img/about.svg" alt="about" class="about__img" />
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Hi there! I'm Jatin, a passionate and ambitious front-end developer. While I may not have work
+                        experience just yet, I am driven by my love for web development and my determination to grow and
+                        succeed in this field.
+                        <br />
+                        Through self-directed learning and hands-on projects, I have honed my skills and become
+                        proficient in creating responsive and visually appealing web applications.
+                    </p>
+
+                    <div class="about__buttons">
+                        <a download href="./assets/pdf/Jatin_Rane_Resume.pdf" class="button button--flex">
+                            Resume<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+               
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <snap class="section__subtitle">My Technical Skills</snap>
+
+            <div class="skills__container container grid">
+                
+                    <!--==================== SKILL 1 ====================-->
+                    <div class="skils__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Frontend</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <i class="uil uil-html5 skills__logo"></i>
+                                    <h3 class="skills__name">HTML</h3>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <i class="uil uil-css3-simple skills__logo"></i>
+                                    <h3 class="skills__name">CSS</h3>
+                                </div>
+                            </div>
+                            <div class="skills__data js">
+                                <div class="skills__title">
+                                    <i class="uil uil-java-script skills__logo"></i>
+                                    <h3 class="skills__name">Javascript</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== SKILL 2 ====================-->
+                    <div class="skils__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-book skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Frontend libraries</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <i class="uil uil-react skills__logo"></i>
+                                    <h3 class="skills__name">React JS</h3>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <img src="./assets/img/bootstrap.png" alt="bootstrap" class="skills__logo">
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <img src="./assets/img/mui.png" alt="mui" class="skills__logo">
+                                    <h3 class="skills__name">Material UI</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My Personal Journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+                    </div>
+                </div>
+
+                <div class="qualification__section">
+                    <!--==================== QUALIFICATION CONTENT ====================-->
+
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <div class="qualification__data">
+
+                            <div>
+                                <h3 class="qualification__title">Production Engineer</h3>
+                                <span class="qualification__subtitle">BVM-COLLEGE</span>
+                                <div class="qualification__calendat">
+                                    <i class="uil uil-calendar-alt">
+                                    </i>
+                                    2019-2023
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+                        <div class="qualification__data">
+
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Programming with JS</h3>
+                                <span class="qualification__subtitle">Coursera</span>
+                                <div class="qualification__calendat">
+                                    <i class="uil uil-calendar-alt">
+                                    </i>
+                                    2023
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                        <div class="qualification__data">
+
+                            <div>
+                                <h3 class="qualification__title">Advanced styling with Responsive Design</h3>
+                                <span class="qualification__subtitle">Coursera</span>
+                                <div class="qualification__calendat">
+                                    <i class="uil uil-calendar-alt">
+                                    </i>
+                                    2023
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+                        <div class="qualification__data">
+
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+
+                            <div>
+                                <h3 class="qualification__title">React Basics</h3>
+                                <span class="qualification__subtitle">Coursera</span>
+                                <div class="qualification__calendat">
+                                    <i class="uil uil-calendar-alt">
+                                    </i>
+                                    2023
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section " id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="portfolio__container container swiper">
+
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO-1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/portfolio1.png" target="_blank" alt="" class="portfolio__img" />
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Advice Generator</h3>
+                            <p class="portfolio__description">Welcome to the Random Advice Generator! Our web app is
+                                designed to provide you with insightful and inspiring advice at the click of a button.
+                               </p>
+                            <a href="https://shiba-tatsuya.github.io/advice_generator/"
+                                class="button button--flex button--small portfolio__button">
+                                Demo <i class="uil uil-arrow-right  button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO-2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/portfolio2.png" target="_blank" alt="" class="portfolio__img" />
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Expense Tracker</h3>
+                            <p class="portfolio__description">The Expense Tracker is a handy web application that helps
+                                you effortlessly monitor your income and expenses.</p>
+                            <a href="https://shiba-tatsuya.github.io/expense_tracker/"
+                                class="button button--flex button--small portfolio__button">
+                                Demo <i class="uil uil-arrow-right  button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO-3 ====================-->
+                    <div class="portfolio__content grid swiper-slide ">
+                        <img src="./assets/img/portfolio3.png" target="_blank" alt="" class="portfolio__img" />
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Youtube Clone</h3>
+                            <p class="portfolio__description">
+                                The React.js YouTube Clone is a sleek and intuitive web application that brings the
+                                familiar YouTube experience to your screen. 
+                            </p>
+                            <a href="https://shiba-tatsuya.github.io/youtube_clone_reactjs/"
+                                class="button button--flex button--small portfolio__button">
+                                Demo <i class="uil uil-arrow-right  button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO-4 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/portfolio4.png" alt="" class="portfolio__img" />
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Weather App</h3>
+                            <p class="portfolio__description">
+                                The Weather Web App provides real-time weather information at your fingertips.</p>
+                            </p>
+                            <a href="https://shiba-tatsuya.github.io/weather_web_app/" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Demo <i class="uil uil-arrow-right  button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+        
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+<h2 class="section__title">Contact Me</h2>
+<spam class="section__subtitle">Get in touch</spam>
+
+<div class="contact__container container grid">
+    <div>
+        <div class="contact__information">
+            <i class="uil uil-envelope contact__icon"></i>
+
+            <div>
+                <div class="contact__title">Email</div>
+                <div class="contact__subtitle">007rjatin@gmail.com</div>
+            </div>
+        </div>
+
+        <div class="contact__information">
+            <i class="uil uil-map-marker contact__icon"></i>
+
+            <div>
+                <div class="contact__title">Location</div>
+                <div class="contact__subtitle">Vyas Faliyu,Pij Bhagol Nadiad</div>
+            </div>
+        </div>
+    </div>
+    <form action="" class="contact__form grid">
+        <div class="contact__inputs grid">
+            <div class="contact__content">
+                <label for="" class="contact__label">Name</label>
+                <input type="text" class="contact__input">
+            </div>
+
+            <div class="contact__content">
+                <label for="" class="contact__label">Email</label>
+                <input type="email" class="contact__input">
+            </div>
+
+            <div class="contact__content">
+                <label for="" class="contact__label">Subject</label>
+                <input type="text" class="contact__input">
+            </div>
+
+            <div class="contact__content">
+                <label for="" class="contact__label">Message</label>
+                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+            </div>
+
+            <div>
+                <a href="" class="button button--flex">
+                Send Message
+                </a>
+            </div>
+        </div>
+    </form>
+</div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Jatin</h1>
+                    <span class="footer__subtitle">Frontend Developer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                
+            </div>
+
+            <p class="footer__copy">&#169; Jatin. All right reserved</p>
+        </div>
+
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+<a href="#" class="scrollup" id="scroll-top">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+
+</html>
